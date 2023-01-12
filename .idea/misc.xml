@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/button.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/button_danger.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/button_secondary.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/logout.xml" value="0.1905" />
+        <entry key="app/src/main/res/layout/activity_admin.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_daftar.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/dialog_buku.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dialog_pinjam.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_admin_buku.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_admin_peminjaman.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_admin_pengguna.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_buku.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/fragment_header.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_peminjaman.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_admin_buku.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_admin_peminjaman.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/item_admin_pengguna.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/item_buku.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/item_peminjaman.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.18802083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

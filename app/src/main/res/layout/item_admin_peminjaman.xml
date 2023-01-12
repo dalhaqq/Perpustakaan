@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--layout item buku with update and delete img button-->
+<!--    buku properties: id,judul,penulis,deskripsi,kategori-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:id="@+id/tv_judul"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"/>
+<!--    tgl pinjam & tgl kembali-->
+    <TextView
+        android:id="@+id/tv_tgl_pinjam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="Tanggal pinjam: "
+        app:layout_constraintTop_toBottomOf="@id/tv_judul"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:id="@+id/tv_tgl_kembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="Tanggal kembali: "
+        app:layout_constraintTop_toBottomOf="@id/tv_tgl_pinjam"
+        android:layout_marginTop="4dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peminjam"
+        android:id="@+id/tv_peminjam"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_tgl_kembali"
+        android:layout_marginTop="4dp"
+        android:paddingBottom="8dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
